@@ -1,6 +1,7 @@
 ;; list 
 (ns com.gaurav.sample (:gen-class))
 
+;; example of variable definition
 (defn main 
       "This is my main method"
       [& args]
@@ -14,4 +15,6 @@
       (println (zero? 10.5))
       (println (zero? 0))
       )
+
+ ;; calling the method     
 (main)
