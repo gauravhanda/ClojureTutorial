@@ -16,5 +16,10 @@
       (println (zero? 0))
       )
 
+
+(defn formatter[]
+(def myName "Gaurav Sharma")
+  (format "This is my name %s" myName)
+)
  ;; calling the method     
-(main)
+(formatter)
